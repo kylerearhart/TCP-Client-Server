@@ -18,7 +18,7 @@ namespace TCPClientConsole
         {
             //create TCP Socket
             TcpClient tcp = new TcpClient();
-            tcp.Connect("172.16.82.186", 11000);
+            tcp.Connect("ip_address_goes_here", 11000);
 
             string message = "";
             while (true)
